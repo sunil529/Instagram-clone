@@ -1,0 +1,10 @@
+._PersonChat{
+  display: flex;
+  padding:15px;
+  border-bottom: 1px solid lightgrey;
+  cursor: pointer;
+  
+}
+._PersonChat:hover{
+  background-color: #ebebeb;
+}

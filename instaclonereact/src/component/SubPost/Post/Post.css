@@ -1,0 +1,92 @@
+._img{
+  width:100%;
+  max-width: 600px;
+  object-fit: contain;
+
+}
+._profileName{
+  color:black;
+
+}
+._profileName:hover{
+  color:black;
+}
+._heading{
+  display: flex;
+  flex-flow:  row;
+  align-items: center;
+}
+._Post{
+  width:100%;
+  max-width: 600px;
+  border:1px solid lightgray;
+  background-color: white;
+  margin-bottom: 80px;
+
+}
+._allcomments{
+  max-height: 50px;
+  overflow: hidden
+}
+
+._caption{
+  display: flex;
+  flex-flow:  row;
+  align-items: center;
+}
+._comment{
+  display: flex;
+  flex-flow: row;
+  height: 60px;
+  align-items: center;
+}
+._inputComment{
+  flex:1;
+
+  border:none;
+  style:none;
+}
+._inputComment:focus{
+border-color: inherit;
+-webkit-box-shadow: none;
+  box-shadow: none;
+}
+._buttonComment{
+  flex:0;
+  border:none;
+  color:blue;
+}
+._buttonComment:focus{
+border-color: inherit;
+-webkit-box-shadow: none;
+  box-shadow: none;
+}
+@media (max-width:780px) {
+      ._Post{
+        margin-bottom: 20px;
+        background-color: #FAFAFA;
+        border:none;
+      }
+    ._inputComment{
+      background-color: #FAFAFA;
+    }
+}
+
+@media (max-width:480px) {
+      ._Post{
+        margin-bottom: 20px;
+        background-color: #FAFAFA;
+        border:none;
+      }
+      ._inputComment{
+        background-color: #FAFAFA;
+      }
+}
+._avatar{
+  text-align: center;
+  background: blue;
+  border-radius: 30px;
+  color:red;
+  align-items: center;
+  display: flex;
+}

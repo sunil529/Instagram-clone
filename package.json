@@ -1,0 +1,20 @@
+{
+  "name": "instaclone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"node src/index.js",
+    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install --prefix instaclonereact && npm run build --prefix instaclonereact"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.5",
+    "validator": "^13.1.1"
+  }
+}

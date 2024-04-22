@@ -1,0 +1,25 @@
+._profile{
+  margin-top:120px;
+}
+._posts{
+  display: flex;
+
+  flex-wrap: wrap;
+}
+._upload{
+  display: flex;
+  justify-content: space-between;
+}
+._delete{
+  display: flex;
+  justify-content: space-between;
+}
+._modal{
+  
+  position: block;
+
+  top:25%;
+
+
+
+}

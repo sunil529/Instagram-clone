@@ -1,0 +1,11 @@
+._Sidebar{
+  border:1px solid #EFEFEF;
+  display: flex;
+  flex-direction: column;
+  flex:0.30;
+
+}
+._Direct{
+  padding:15px;
+  border-bottom: 1px solid #EFEFEF;
+}

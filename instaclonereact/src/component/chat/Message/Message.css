@@ -1,0 +1,14 @@
+._message{
+  display: flex;
+  flex-direction: column;
+  flex:0.70;
+}
+._msg{
+  height:60px;
+  align-items: center;
+  display: flex;
+  padding: 10px;
+  border:2px solid #EFEFEF;
+  border-left:none;
+}
+ 
